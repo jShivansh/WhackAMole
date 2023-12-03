@@ -1,14 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background: url("/images/cover.jpg");
+    background: url("./images/cover.jpg");
     background-size: cover;
 }
 
 #board{
     width: 540px;
     height: 540px;
-    background: url("/images/soil.png");
+    background: url("./images/soil.png");
     background-size: cover;
     border: 3px solid black;
     border-radius: 25px;
@@ -22,7 +22,7 @@ body{
     /* Dividing the Board into 9 equal parts */
     width: 180px;
     height: 180px;
-    background: url("/images/pipe.png");
+    background: url("./images/pipe.png");
     background-size: cover;
 }
 

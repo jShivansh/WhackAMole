@@ -37,7 +37,7 @@ function setMole(){
     } //This will clear the Mole on privious pipe(div)
 
     let mole = document.createElement("img"); //Creating mole image
-    mole.src = "/images/monty-mole.png";
+    mole.src = "./images/monty-mole.png";
 
     let n = getRandomTile();
     if (currPlantTile && currPlantTile.id == n){
@@ -58,7 +58,7 @@ function setPlant(){
     } ////This will clear the Plant on privious pipe(div)
 
     let plant = document.createElement("img"); //Creating plant image
-    plant.src = "/images/plant.png";
+    plant.src = "./images/plant.png";
 
     let n = getRandomTile();
     if (currMoleTile && currMoleTile.id == n){

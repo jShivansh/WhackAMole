@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url("/images/cover.jpg");
+    background-size: cover;
+}
+
+#board{
+    width: 540px;
+    height: 540px;
+    background: url("/images/soil.png");
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 25px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    /* Dividing the Board into 9 equal parts */
+    width: 180px;
+    height: 180px;
+    background: url("/images/pipe.png");
+    background-size: cover;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+
+    /* To make sure the images are not draged away from there place */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
